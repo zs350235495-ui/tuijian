@@ -120,8 +120,12 @@ async function runAudit() {
   console.log(`  ✓ Sitemap 全部 ${sitemapUrls.length} 个页面公网可达性测试 100% 返回 HTTP 200 OK`);
 
   // 3. HTML Pages Content, Headings, JSON-LD, Assets, and Compliance Audit
-  console.log('\n【3. HTML 全站 E-E-A-T 实体、语义层级与风控清洗断言】');
-  const htmlFiles = fs.readdirSync(ROOT_DIR).filter(f => f.endsWith('.html'));
+  const htmlFiles = [
+    ...fs.readdirSync(ROOT_DIR).filter(f => f.endsWith('.html')),
+    ...(fs.existsSync(path.join(ROOT_DIR, 'articles'))
+      ? fs.readdirSync(path.join(ROOT_DIR, 'articles')).filter(f => f.endsWith('.html')).map(f => path.join('articles', f))
+      : [])
+  ];
 
   let totalPagesChecked = 0;
   for (const file of htmlFiles) {

@@ -39,7 +39,8 @@ export default defineConfig({
         brands: resolve(__dirname, 'brands.html'),
         sitemap: resolve(__dirname, 'sitemap.html'),
         notFound: resolve(__dirname, '404.html'),
-        go: resolve(__dirname, 'go.html')
+        go: resolve(__dirname, 'go.html'),
+        articlesBenchmark: resolve(__dirname, 'articles/protocol-concurrency-latency-benchmark-2026.html')
       }
     }
   }
