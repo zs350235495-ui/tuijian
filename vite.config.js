@@ -40,7 +40,8 @@ export default defineConfig({
         sitemap: resolve(__dirname, 'sitemap.html'),
         notFound: resolve(__dirname, '404.html'),
         go: resolve(__dirname, 'go.html'),
-        articlesBenchmark: resolve(__dirname, 'articles/protocol-concurrency-latency-benchmark-2026.html')
+        articlesBenchmark: resolve(__dirname, 'articles/protocol-concurrency-latency-benchmark-2026.html'),
+        articlesCheapBudget: resolve(__dirname, 'articles/cheap-budget-friendly-airport-ladder-recommendation-2026.html')
       }
     }
   }
