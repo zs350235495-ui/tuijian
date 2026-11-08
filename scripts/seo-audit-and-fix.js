@@ -10,7 +10,7 @@ console.log(`Starting SEO & E-E-A-T optimization across ${files.length} HTML fil
 const affLinkReplacements = [
   { regex: /https:\/\/123pps01\.huanqiutiaff\.com\/#\/\?code=j5VBUvw0/g, replacement: '/post.html', label: '查看环球梯图鉴' },
   { regex: /https:\/\/ppsvip01\.dalaoyunaff\.com\/#\/\?code=Iz1GlCVa/g, replacement: '/rankings.html#item-2', label: '查看大佬云图鉴' },
-  { regex: /https:\/\/pp01\.yunjiexianaff\.com\/#\/\?code=bp0ZSKBV/g, replacement: '/rankings.html#item-3', label: '查看云界线图鉴' },
+  { regex: /https:\/\/pp01\.yunjiexianaff\.com\/#\/\?code=(?:bp0ZSKBV|6Y9vSMcc)/g, replacement: '/rankings.html#item-3', label: '查看云界线图鉴' },
   { regex: /https:\/\/123pp01\.liulianyunaff\.com\/#\/\?code=MsZP3u7G/g, replacement: '/rankings.html#item-4', label: '查看榴莲云图鉴' },
   { regex: /https:\/\/pps123\.shenxingaff\.com\/#\/\?code=6tQ7zHUc/g, replacement: '/rankings.html#item-5', label: '查看神行加速图鉴' },
   { regex: /https:\/\/ppsvip01\.shandianshuaff\.com\/#\/\?code=QbLF8tjB/g, replacement: '/rankings.html#item-6', label: '查看闪电鼠图鉴' },

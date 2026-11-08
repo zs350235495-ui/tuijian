@@ -16,7 +16,7 @@ const PARTNERS = {
   },
   yunjiexian: {
     name: '云界线',
-    url: 'https://pp01.yunjiexianaff.com/#/?code=bp0ZSKBV',
+    url: 'https://pp01.yunjiexianaff.com/#/?code=6Y9vSMcc',
     code: 'yjx888'
   },
   liulianyun: {

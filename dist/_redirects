@@ -6,7 +6,7 @@
 # 1. 路径式 301 状态码重定向 (/go/:id)
 /go/huanqiuti https://123pps01.huanqiutiaff.com/#/?code=j5VBUvw0 301
 /go/dalaoyun https://ppsvip01.dalaoyunaff.com/#/?code=Iz1GlCVa 301
-/go/yunjiexian https://pp01.yunjiexianaff.com/#/?code=bp0ZSKBV 301
+/go/yunjiexian https://pp01.yunjiexianaff.com/#/?code=6Y9vSMcc 301
 /go/liulianyun https://123pp01.liulianyunaff.com/#/?code=MsZP3u7G 301
 /go/shenxing https://pps123.shenxingaff.com/#/?code=6tQ7zHUc 301
 /go/shandianshu https://ppsvip01.shandianshuaff.com/#/?code=QbLF8tjB 301
@@ -26,7 +26,7 @@
 # 2. 查询参数式 301 状态码重定向 (/go.html?id=:id)
 /go.html id=huanqiuti https://123pps01.huanqiutiaff.com/#/?code=j5VBUvw0 301
 /go.html id=dalaoyun https://ppsvip01.dalaoyunaff.com/#/?code=Iz1GlCVa 301
-/go.html id=yunjiexian https://pp01.yunjiexianaff.com/#/?code=bp0ZSKBV 301
+/go.html id=yunjiexian https://pp01.yunjiexianaff.com/#/?code=6Y9vSMcc 301
 /go.html id=liulianyun https://123pp01.liulianyunaff.com/#/?code=MsZP3u7G 301
 /go.html id=shenxing https://pps123.shenxingaff.com/#/?code=6tQ7zHUc 301
 /go.html id=shandianshu https://ppsvip01.shandianshuaff.com/#/?code=QbLF8tjB 301
