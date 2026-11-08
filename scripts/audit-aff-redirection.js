@@ -52,11 +52,11 @@ redirectsPaths.forEach(p => {
     hasError = true;
   } else {
     const content = fs.readFileSync(p, 'utf8');
-    if (!content.includes('huanqiuti') || !content.includes('301')) {
+    if (!content.includes('huanqiuti') || (!content.includes('302') && !content.includes('301'))) {
       console.error(`[FAIL] ${p} 重定向规则不完整！`);
       hasError = true;
     } else {
-      console.log(`[PASS] ${p} 301 重定向规则配置正常。`);
+      console.log(`[PASS] ${p} 302/301 重定向规则配置正常。`);
     }
   }
 });

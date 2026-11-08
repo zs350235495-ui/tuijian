@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex, nofollow">
-  <meta name="description" content="机场图鉴安全外部通道分发与 301 重定向中心，正在为您建立直连通道。">
+  <meta name="description" content="机场图鉴安全外部通道分发与 302 重定向中心，正在为您建立直连通道。">
   <link rel="canonical" href="https://jichangtujian.vip/go.html">
   <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
   <title>正在安全建立直达通道... - 机场图鉴</title>
@@ -83,7 +83,7 @@
             manualLink.href = targetUrl;
             manualLink.style.display = 'inline-flex';
 
-            // 触发 301 语义的客户端无缝重定向
+            // 触发 302 语义的客户端无缝重定向
             setTimeout(function() {
               window.location.replace(targetUrl);
             }, 180);
@@ -126,7 +126,7 @@
     <!-- Status text -->
     <div id="status-indicator" class="text-xs text-ink/50 flex items-center justify-center mb-8">
       <span class="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse mr-2"></span>
-      通过 301 状态码直通官方节点，防止网络劫持
+      通过 302 状态码直通官方节点，防止网络劫持
     </div>
 
     <!-- Action Buttons -->
