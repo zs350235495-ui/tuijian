@@ -44,6 +44,7 @@ export default defineConfig({
         articlesCheapBudget: resolve(__dirname, 'articles/cheap-budget-friendly-airport-ladder-recommendation-2026.html'),
         articlesDeveloperProductivity: resolve(__dirname, 'articles/developer-productivity-code-acceleration-airport-ladder-2026.html'),
         articlesEnterpriseLoadBalancing: resolve(__dirname, 'articles/enterprise-multi-line-load-balancing-airport-ladder-2026.html'),
+        articlesMultiNetwork: resolve(__dirname, 'articles/2026-airport-ladder-multi-network-guide.html'),
         articlesIndex: resolve(__dirname, 'articles/index.html')
       }
     }
